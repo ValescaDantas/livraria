@@ -13,6 +13,35 @@ body{
 }
 
 
+a { text-decoration: none;
+  color: #ffff;}
+
+.nav {
+
+    width: 87%;
+  align-items: center;
+    font-family: arial;
+    color: #ffff;
+    display: flex;
+    position: fixed;
+    background-color: #C26B18;
+    z-index: 99;
+    height: 10%;
+    max-width: 90%;
+
+}
+
+
+.nav li {
+    text-decoration: none;
+    float: right;
+    text-align:right;
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 10px;
+    max-width: 90%;
+}
+
 #divBusca{
     margin-top: -10px;
   background-color:#ffff;
@@ -23,7 +52,7 @@ body{
   position: center;
   margin-left: 300px;
   align-content: right;
-
+  max-width: 90%;
 }
 
 #txtBusca{
@@ -32,10 +61,11 @@ body{
   padding-left:5px;
   font-style:italic;
   font-size:18px;
-  border:none;
+  border:#ffff;
   height:32px;
-  width:100px;
-  position: center;
+  width:150px;
+  position: auto;
+  max-width: 90%;
 }
 
 .slider {
@@ -103,11 +133,12 @@ body{
 }
 
 .product-title {
-    align-items: center;
+  align-items: center;
   height: 50px;
   display: block;
   font-weight: bolder;
   margin-bottom: -10px;
+  max-width: 70% ;
 }
 
 .value {
@@ -204,7 +235,12 @@ margin-left: 42%;
   background-color: #fff;
 }
 
-.rodape {
-    height: 200px;
-    padding-bottom: 30px;
-    background-color:#C26B18 ;>
+.footer{
+    height: 50px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    background-color:#C26B18 ;
+    color: #ffff;
+    text-align: center;
+    
+  }
